@@ -5,7 +5,7 @@
 This project tests whether landscape and firefighting-access attributes predict wildfire
 escape and final size more accurately than fire-weather attributes, across the entire
 occurrence-to-size lifecycle, using a matched 9 vs 9 feature comparison on
-768,255 U.S. wildfires (2011-2020), with Portugese and Algerian data as
+768,255 U.S. wildfires (2011-2020), with Algerian and Portuguese data as
 validation for occurrence and escape, respectively.
 
 ## Data
@@ -31,6 +31,6 @@ the pipeline below.
    regression and logistic regression.
 5. **`weather_fair_test.py`** — expands the weather set to a 5-day window with climate
    percentiles, to test whether more generous weather feature can close the gap observed.
-6. **`make_poster_figures.py`** — generate all figures necessary relating to fire-danger indices, Spearman figures, Simpson Paradox results, etc. 
+6. **`all_figures.py`** — generate all figures necessary relating to fire-danger indices, Spearman figures, Simpson Paradox results, etc. 
 
 The 20 Level-II EPA Ecoregions used were: Mississippi Alluvial Plain, Southeastern USA Plains, South Central Semi-Arid Prairies, Western Cordillera, Ozark/Ouachita–Appalachian Forests, Mixed Wood Plains, Mediterranean California, Cold Deserts, Warm Deserts, Temperate Prairies, West-Central Semi-Arid Prairies, Mixed Wood Shield, Upper Gila Mountains, Atlantic Highlands, Marine West Coast Forest, Texas-Louisiana Coastal Plain, Central USA Plains, Tamaulipas-Texas Semi-Arid Plain, Western Sierra Madre Piedmont, Everglades
