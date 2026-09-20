@@ -15,6 +15,7 @@ Three publicly available datasets, none included in this repo due to size/licens
 (Portugal) Forest Fires in Montesinho, Portugal: [10.24432/C5D88D](https://doi.org/10.24432/C5D88D)
 (Algeria) Algerian Forest Fire [10.24432/C5KW4N](https://doi.org/10.24432/C5KW4N) 
 
+**An important thing to note is that 768,255 wildfires are mined and leakage-protected, but models are repeatedly tested on 250k of them (randomly chosen) each time.**
 
 Download the FPA FOD-Attributes annual CSVs (2011-2020) into `data/fpa/` before running
 the pipeline below.
